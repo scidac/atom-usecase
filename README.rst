@@ -5,9 +5,9 @@ selected by the ATOM project for code benchmarking.
 The database has the following directory structure:
 
 tokamak
-  docs - discharge summaries
-  efits - kinetic EFITs
-  statefiles - plasma statefiles
-  tgyro - TGYRO/TGLF/EPED runs
-  usecases.rst - table of available discharges
+  | docs - discharge summaries
+  | efits - kinetic EFITs
+  | statefiles - plasma statefiles
+  | tgyro - TGYRO/TGLF/EPED runs
+  | usecases.rst - table of available discharges
  
