@@ -1,4 +1,4 @@
-# Welcome to the ATOM Use Case Database
+Welcome to the ATOM Use Case Database
 This is a database of analyzed tokamak discharges
 selected by the ATOM project for code benchmarking.
 
