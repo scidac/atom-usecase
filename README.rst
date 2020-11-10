@@ -7,6 +7,7 @@ The database has the following directory structure:
 tokamak
   | docs - discharge summaries
   | efits - kinetic EFITs
+  | onetwo - onetwo analyses
   | statefiles - plasma statefiles
   | tgyro - TGYRO/TGLF/EPED runs
   | usecases.rst - table of available discharges
