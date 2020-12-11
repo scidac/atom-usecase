@@ -1,0 +1,47 @@
+INFO: (CGYRO) MPI rank alignment 2
+INFO: (CGYRO) Single-mode linear analysis
+INFO: (CGYRO) ExB shear: OFF
+INFO: (CGYRO) Time integrator: Cash-Karp 6:5(4) [adaptive]
+INFO: (CGYRO) Using gyrokinetic electrons
+INFO: (CGYRO) Profile model: experimental (input.gacode)
+INFO: (CGYRO) QN flag: Enforcing quasi-neutrality
+INFO: (CGYRO) Equilibrium: HAM
+INFO: (CGYRO) Transverse EM fluctuations (Phi,A_par)
+INFO: (CGYRO) Rotation terms: O(mach) only (traditional GYRO)
+INFO: (CGYRO) Collision model: Sugama
+INFO: (CGYRO) Collision terms: L D Rm Re kp ions field
+INFO: (CGYRO)                  x x x  x  x   x     x
+
+ n_theta | n_species | n_energy | n_xi 
+    24         2          8        18
+
+ nc_loc | nv_loc | nsplit | n_MPI | n_OMP
+    96      144     3456        2    1
+
+           n    Delta      Max     L/rho
+ kx*rho:   8    2.841    8.524      2.21
+ ky*rho:   1   -0.300   -0.300     20.94
+
+  D-theta:  6    D-radial:  6    D-alpha:  6   [dissipation order]
+ up_theta: 1.0  up_radial: 1.0  up_alpha: 0.0  [dissipation strength]
+ C(theta): 0.9
+
+     r/a:  0.75000        q: -1.88353       s:  1.50739
+     R/a:  2.83949    shift: -0.12489    zmag:  0.00000  dzmag:  0.00000
+   kappa:  1.43429    delta:  0.09411    zeta:  0.00000
+ s_kappa:  0.22380  s_delta:  0.16001  s_zeta:  0.00000
+
+    c0:  0.00000     c1:  0.00000     c2:  0.00000     c3:  0.00000     s3:  0.00000
+  s_c0:  0.00000   s_c1:  0.00000   s_c2:  0.00000   s_c3:  0.00000   s_s3:  0.00000
+
+ gamma_e:  1.396E-01  gamma_p: -9.954E-01    mach: -4.293E-01  [rho/a]:  1.195E-01
+   betae:  2.716E-03   beta_*:  1.552E-02  lamb_*:  0.000E+00  [z_eff]:  1.000E+00
+
+ i  z  n/n_norm   T/T_norm   m/m_norm     a/Ln       a/Lt       nu        s(a/Ln)    s(a/Lt)
+ 1  1  1.000E+00  1.074E+00  1.000E+00  1.409E-01  2.503E+00  6.856E-03  0.000E+00  0.000E+00
+ 2 -1  1.000E+00  1.000E+00  2.724E-04  1.409E-01  2.732E+00  4.626E-01  0.000E+00  0.000E+00
+
+            a[m]: 5.977E-01    b_unit[T]: 3.477E+00       rhos/a: 2.148E-03   dn: 5.560E+01
+ n_norm[e19/m^3]: 8.535E+00  v_norm[m/s]: 2.139E+05  T_norm[keV]: 9.552E-01
+
+EXIT: (CGYRO) Linear converged
