@@ -1,0 +1,71 @@
+          
+  ----------------
+
+  Transport analysis summary:  Shot  150139 at  2026 ms
+                         Onetwo V5.2     
+  Minor radius a (cm):    59.4         b/a:                     1.74
+  Nominal Rmajor (cm):   169.6         R at geom. cent. (cm): 165.8
+  R at mag. axis (cm):   171.1         Z at mag. axis (cm):    -1.1
+  Volume (cm**3):          1.76E+07    Pol. circum. (cm):     515.9
+  surface area (cm**2):    5.11E+05    cross. sect area   :  1.76E+04
+  Bt (G):                 -1.91E+04    Ip  (A):                 7.51E+05
+  Bt at Rgeom (G):        -1.95E+04    r(q = 1)/a:                1.00
+  Line-avg den (1/cm**3):  2.52E+13    Tau-particle-d  (s):     0.250
+      profiles             ucenter     uedge     ucen/uav
+  elec. den. (1/cm**3):    3.10E+13    1.20E+13    1.45
+  elec. temp. (keV):       1.74        0.04        2.93
+  ion   temp. (keV):       2.48        0.23        3.07
+  current  (A/cm**2):    165.89        8.04        3.65
+  Zeff:                    1.30        1.16        0.97
+  q:                      -1.09      -25.36
+  q* at edge:                         -8.15
+  ang. speed (1/sec):     8.11E+04    5.62E+03    2.51E+00
+                            exper.          code
+  Surface voltage  :       0.00            1.25      Volts
+  Average voltage  :       0.00            0.34      Volts
+  Ohmic power:             0.00E+00        2.57E+05  Watts
+  Beam power-torus:        2.24E+06        2.24E+06  Watts
+  Neutron rate D(D,N):     0.00E+00        9.69E+13  #/s
+      computed quantities
+  Beam power elec. (W):    1.07E+06    ke at a/2 (1/cm-s):      6.37E+17
+  Beam power ions  (W):    8.98E+05    ki at a/2 (1/cm-s):      5.25E+17
+  Beam power cx loss (W):  1.59E+05    ki/kineo at a/2:        13.49
+  Shinethrough (%):        0.48        chi electrons at a/2:    2.50E+04
+  RF power absorbed:       0.00E+00    chi ions at a/2:         2.28E+04
+  Radiated power   (W):    4.61E+05    r*/a: Te = (Te(0)+Te(a))/2 0.46
+  Brems prim ions  (W):    0.00E+00    Brems imp ions :         0.00E+00
+  Poloidal B field (G):    1.83E+03    Beta-poloidal:           0.498
+  beam torque (nt-m)       2.08E+00    total torque (nt-m):     2.01E+00
+  stored ang mtm (kg*m2/s):  1.28E-01  momt inertia (kg*m**2):  3.49E-06
+  kinetic energy of rotation (j) :  2.97E+03
+                           electrons     ions       thermal      total
+  Stored Energy (J)        6.386E+04   7.458E+04   1.384E+05   1.837E+05
+  dE/dt (W):               0.000E+00   0.000E+00   0.000E+00   0.000E+00
+  Input power (W):         1.325E+06               2.223E+06   2.223E+06
+  Energy conf. time (s):   0.0482                  0.0623      0.0826
+  
+                                                   H(89p) =    1.10  H(89pm) =  1.33 H_ITER98y2 =  0.65  H_Petty =  0.85
+  angular momentum confinement time (sec)          0.0617
+      Beta-toroidal        volume-avg       center
+  electrons:               1.591E-03       5.702E-03
+  ions:                    1.858E-03       6.845E-03
+  beam:                    1.127E-03       5.918E-03
+  alphas:                  0.000E+00       0.000E+00
+  total:                   4.576E-03       1.847E-02
+  total power input (Mw) =  2.4929E+06  time =  2.0260E+00
+  Itot =  7.51E+05  Iohm =  6.06E+05  Iboot =  7.01E+04  Ibeam =   7.49E+04
+                    Irf =   0.00E+00
+                  cd,amps          qe ,watts          qi, watts
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  QDD =   0.000045 QDT =   0.000000 QTT =   0.000000
+ P DD  =  1.1220E+02  P DT =  0.0000E+00  P TT =  0.0000E+00 W
+ D(D,n) =   9.6903E+13  D(T,n) =   0.0000E+00  T(T,2n) =   0.0000E+00   #/sec
+  time =  2026.00 ms,  time point=   0.0   Analysis of shot  150139 at  2026 ms
+  (onetwo version: Onetwo V5.2     )
+\n  Tue 04-Sep-12 10:44:14 AM
+\n  Linux zeus.gat.com 2.6.9-103.ELsmp #1 SMP Fri Nov 11 14:34:02 EST 2011 i686 i686 i386 GNU/Linux
