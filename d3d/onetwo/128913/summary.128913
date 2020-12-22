@@ -1,0 +1,82 @@
+          Transport analysis summary:  Shot  128913 at  1500 ms
+                         Onetwo V4.26    
+ 
+  Minor radius a (cm):    60.1         b/a:                     1.65
+  Nominal Rmajor (cm):   169.6         R at geom. cent. (cm): 166.1
+  R at mag. axis (cm):   171.0         Z at mag. axis (cm):     3.2
+  Volume (cm**3):          1.70E+07    Pol. circum. (cm):     502.0
+  surface area (cm**2):    4.98E+05    cross. sect area   :  1.70E+04
+
+  Bt (G):                 -2.07E+04    Ip  (A):                 9.92E+05
+  Bt at Rgeom (G):        -2.11E+04    r(q = 1)/a:                1.00
+  Line-avg den (1/cm**3):  2.33E+13    Tau-particle-d  (s):     0.500
+ 
+      profiles             ucenter     uedge     ucen/uav
+  elec. den. (1/cm**3):    3.41E+13    8.18E+12    1.82
+  elec. temp. (keV):       2.61        0.03        3.49
+  ion   temp. (keV):       1.94        0.15        2.85
+  current  (A/cm**2):    141.70       22.55        2.28
+  Zeff:                    1.23        1.23        0.94
+  q:                      -1.38      -17.28
+  q* at edge:                         -6.16
+  ang. speed (1/sec):     8.52E+04    9.81E+03    2.55E+00
+ 
+                            exper.          code
+  Surface voltage  :       0.00            5.20      Volts
+  Average voltage  :       0.00            0.50      Volts
+  Ohmic power:             0.00E+00        4.92E+05  Watts
+  Beam power-torus:        2.59E+06        2.59E+06  Watts
+  Neutron rate D(D,N):     0.00E+00        2.44E+14  #/s
+ 
+      computed quantities
+  Beam power elec. (W):    1.18E+06    ke at a/2 (1/cm-s):      4.55E+17
+  Beam power ions  (W):    1.04E+06    ki at a/2 (1/cm-s):      1.04E+18
+  Beam power cx loss (W):  2.10E+05    ki/kineo at a/2:        48.71
+  Shinethrough (%):        1.86        chi electrons at a/2:    2.16E+04
+  RF power absorbed:       0.00E+00    chi ions at a/2:         5.61E+04
+  Radiated power   (W):    1.12E+04    r*/a: Te = (Te(0)+Te(a))/2 0.40
+  Brems prim ions  (W):    0.00E+00    Brems imp ions :         0.00E+00
+  Poloidal B field (G):    2.48E+03    Beta-poloidal:           0.318
+  beam torque (nt-m)       2.11E+00    total torque (nt-m):     2.06E+00
+  stored ang mtm (kg*m2/s):  1.10E-01  momt inertia (kg*m**2):  2.88E-06
+  kinetic energy of rotation (j) :  2.56E+03
+ 
+                           electrons     ions       thermal      total
+  Stored Energy (J)        7.178E+04   5.362E+04   1.254E+05   2.081E+05
+  dE/dt (W):               0.000E+00   0.000E+00   0.000E+00   0.000E+00
+  Input power (W):         1.676E+06               2.711E+06   2.711E+06
+  Energy conf. time (s):   0.0428                  0.0463      0.0768
+  H(89p) =    0.90  H(89pm) =  1.00 H_ITER98y2 =  0.43  H_Petty =  0.55
+  angular momentum confinement time (sec)          0.0520
+ 
+      Beta-toroidal        volume-avg       center
+  electrons:               1.585E-03       8.050E-03
+  ions:                    1.184E-03       4.729E-03
+  beam:                    1.827E-03       1.195E-02
+  alphas:                  0.000E+00       0.000E+00
+  total:                   4.597E-03       2.473E-02
+  total power input (Mw) =  3.0837E+06  time =  1.5000E+00
+  Itot =  9.92E+05  Iohm =  7.95E+05  Iboot =  6.89E+04  Ibeam =   1.28E+05  Irf =   0.00E+00
+                  cd,amps          qe ,watts          qi, watts
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+ QDD =   0.000091 QDT =   0.000000 QTT =   0.000000
+ P DD  =  2.8070E+02  P DT =  0.0000E+00  P TT =  0.0000E+00 W
+ D(D,n) =   2.4386E+14  D(T,n) =   0.0000E+00  T(T,2n) =   0.0000E+00   #/sec
+ 
+ 
+ 
+ 
+1time =  1500.00 ms,  time point=   0.0   Analysis of shot  128913 at  1500 ms            (onetwo version: Onetwo V4.26    )
+   equilibrium point =   1   equilibrium iteration number =  1
+
+
+
+ plasma shape parameters - MKS units
+
+ width =      1.2  height =     2.0  h/w =    1.65  volume =    0.171E+02  magnetic axis     1.71     0.03
+ kappa0 =     1.2757
