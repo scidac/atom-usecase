@@ -1,0 +1,69 @@
+          
+  ----------------
+
+  Transport analysis summary:  Shot  106210 at  4290 ms
+                         Onetwo V5.2     
+  Minor radius a (cm):    57.4         b/a:                     2.00
+  Nominal Rmajor (cm):   169.6         R at geom. cent. (cm): 166.9
+  R at mag. axis (cm):   171.5         Z at mag. axis (cm):     3.4
+  Volume (cm**3):          1.89E+07    Pol. circum. (cm):     539.5
+  surface area (cm**2):    5.50E+05    cross. sect area   :  1.84E+04
+  Bt (G):                 -1.90E+04    Ip  (A):                 1.08E+06
+  Bt at Rgeom (G):        -1.93E+04    r(q = 1)/a:                1.00
+  Line-avg den (1/cm**3):  4.96E+13    Tau-particle-d  (s):     0.370
+      profiles             ucenter     uedge     ucen/uav
+  elec. den. (1/cm**3):    6.00E+13    2.13E+12    1.39
+  elec. temp. (keV):       3.03        0.04        2.59
+  ion   temp. (keV):       3.69        0.25        2.72
+  current  (A/cm**2):    177.54       23.89        2.93
+  Zeff:                    1.99        1.71        0.93
+  q:                      -1.06       -9.48
+  q* at edge:                         -6.89
+  ang. speed (1/sec):     7.01E+04    1.00E+03    1.74E+00
+                            exper.          code
+  Surface voltage  :       0.00            1.45      Volts
+  Average voltage  :       0.00            0.21      Volts
+  Ohmic power:             0.00E+00        2.21E+05  Watts
+  Beam power-torus:        2.43E+06        2.43E+06  Watts
+  Neutron rate D(D,N):     0.00E+00        3.41E+14  #/s
+      computed quantities
+  Beam power elec. (W):    9.92E+05    ke at a/2 (1/cm-s):      8.64E+17
+  Beam power ions  (W):    1.34E+06    ki at a/2 (1/cm-s):      1.50E+17
+  Beam power cx loss (W):  6.38E+04    ki/kineo at a/2:         1.19
+  Shinethrough (%):        0.01        chi electrons at a/2:    1.77E+04
+  RF power absorbed:       0.00E+00    chi ions at a/2:         3.97E+03
+  Radiated power   (W):    3.86E+05    r*/a: Te = (Te(0)+Te(a))/2 0.45
+  Brems prim ions  (W):    0.00E+00    Brems imp ions :         0.00E+00
+  Poloidal B field (G):    2.51E+03    Beta-poloidal:           0.736
+  beam torque (nt-m)       2.28E+00    total torque (nt-m):     2.17E+00
+  stored ang mtm (kg*m2/s):  3.48E-01  momt inertia (kg*m**2):  7.86E-06
+  kinetic energy of rotation (j) :  8.40E+03
+                           electrons     ions       thermal      total
+  Stored Energy (J)        2.542E+05   2.359E+05   4.901E+05   5.408E+05
+  dE/dt (W):               0.000E+00   0.000E+00   0.000E+00   0.000E+00
+  Input power (W):         1.214E+06               2.551E+06   2.551E+06
+  Energy conf. time (s):   0.2095                  0.1922      0.2120
+  
+                                                   H(89p) =    1.96  H(89pm) =  2.24 H_ITER98y2 =  1.06  H_Petty =  1.31
+  angular momentum confinement time (sec)          0.1529
+      Beta-toroidal        volume-avg       center
+  electrons:               6.057E-03       1.967E-02
+  ions:                    5.619E-03       1.906E-02
+  beam:                    1.208E-03       6.276E-03
+  alphas:                  0.000E+00       0.000E+00
+  total:                   1.288E-02       4.501E-02
+  total power input (Mw) =  2.6512E+06  time =  0.0000E+00
+  Itot =  1.08E+06  Iohm =  8.02E+05  Iboot =  2.13E+05  Ibeam =   6.20E+04
+                    Irf =   0.00E+00
+                  cd,amps          qe ,watts          qi, watts
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  fastcd          0.000E+00        0.000E+00          0.000E+00
+  fastcd          0.000E+00        0.000E+00          0.000E+00
+  QDD =   0.000148 QDT =   0.000000 QTT =   0.000000
+ P DD  =  3.9247E+02  P DT =  0.0000E+00  P TT =  0.0000E+00 W
+ D(D,n) =   3.4064E+14  D(T,n) =   0.0000E+00  T(T,2n) =   0.0000E+00   #/sec
+  time =     0.00 ms,  time point=   0.0   Analysis of shot  106210 at  4290 ms
+  (onetwo version: Onetwo V5.2     )
+\n  Mon 16-Jan-12 08:49:25 AM
+\n  Linux zeus.gat.com 2.6.9-103.ELsmp #1 SMP Fri Nov 11 14:34:02 EST 2011 i686 i686 i386 GNU/Linux
