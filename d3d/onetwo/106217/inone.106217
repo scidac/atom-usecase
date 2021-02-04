@@ -1,0 +1,107 @@
+dee    diii-d
+ 106217.2070 - 1.5 source H-mode.
+ Part of MAR2301 Kappa scaling experiment
+ ne from 4d
+ Te from 4d
+ Ti from 4d (CERFIT)
+ Zeff from 4d Carbon density (CERFIT)
+ Radiated power from 4d
+ Rotation from 4d (CERFIT) 
+ NBI power = 3.25 MW @ 80.9,  70.1 kV
+                      100.0,  56.3% of power from left sources
+      Turn on beam orbits.
+      Use 75:15:10 for species mix
+      100% of power from D beams.
+      Sfrac1(1) refers to right source of injector # one.
+      NBI-driven current turned on.  Bootstrap current turned on.
+      iddcal=3
+ ECH power = 0. MW from Katja, 0. MW from Dorothy
+             67 deg poloidal tilt angle (shim 3)
+ 5/24/02 JEK new fit to toroidal velocity, ne, ti
+----------------------------------------------------------------------
+ $namelis1
+  rmajor=0.0 rminor=60. btor=0.0e+04 totcur=0.00e+6
+  rin=98.5 rout=243. zax=0.0
+  nprim=1 nimp=1 namep='d' namei='c'
+  itenp=0 itte=0 itti=0 itxj=0 iangrot=1 itangrot=0
+  taupin=0.34
+  wneo= 1. 1. 1. 1. 1.
+        1. 1. 1. 1. 1.
+        1. 1. 1. 1. 1. 
+        1. 1. 1. 1. 1.
+        1. 1. 1. 1. 1.
+  wneot=1. jhirsh=2
+  inenez=1
+  nbctim=1 bctime=0.0
+  splninpt='new'
+  njene=5
+;  renein(1,1)=0.00000     0.877503     0.947431      1.00000
+;  enein(1,1)= 5.91591e+13  3.77503e+13  2.82646e+13  5.17276e+12
+  renein(1,1)=0.00000     0.462707     0.897345     0.944570      1.00000
+  enein(1,1)=6.500e+13  5.18494e+13  3.61652e+13  2.90219e+13  0.451332e+13
+  njte=4
+  rtein(1,1)= 0.00000     0.400985     0.999497      1.00000
+  tein(1,1)=  3.12432      1.69031     0.258960     0.256597
+  njti=5
+;  rtiin(1,1)=0.00000     0.413251     0.978099      1.00000
+;  tiin(1,1)= 4.42335      1.91104     0.415639     0.311888
+  rtiin(1,1)=0.00000     0.217658     0.760331     0.971808      1.0000
+  tiin(1,1)=4.70121      3.30548     0.943108     0.394306     0.160769
+  njzef=11
+  rzeffin(1,1)=0.0      0.1      0.2      0.3      0.4      0.5  
+               0.6      0.7      0.8      0.9      1.0
+  zeffin(1,1)= 1.33166  1.33308  1.33760  1.34581  1.35855  1.37706
+               1.40318  1.43976  1.49133  1.55569  1.69595
+;  rangrot(1,1)= 0.00000    0.0519416     0.972629      1.00000
+;  angrotin(1,1)=133112.      122734.      1594.60     -3504.91
+  rangrot(1,1)=0.00000    0.0309068     0.246407     0.786193      1.00000
+  angrotin(1,1)=130000.      124957.      79847.6      26885.0      1000.00
+  time0=0.0 timmax=-0.5 dtmax=0.05 nmax=480 iffar=0
+  jprt=1 jflux=1 jcoef=1 jsourc=1 jbal=1 jtfus=0 jsxr=0
+  nneu=1 namen='d'
+ $end
+ $namelis2
+  iyoka=2 ishot=106217 itime=2070
+  nqrad=11
+  qradr= 0.0         0.1         0.2         0.3         0.4     
+         0.5         0.6         0.7         0.8         0.9      
+         1.0
+  qradin=0.00       0.000267515  0.000721411  0.00120521  0.00170358
+         0.00227068  0.00328674  0.00726494  0.0307874   0.183270
+         0.274344
+  beamon=-99.0 btime=100.0 timbplt = 0.0
+  nbeamtcx=1  iterate_beam=.true.
+  nameb='d' fdbeam=1.0
+  npart=50000 npskip=5 mf=21
+  iexcit=5 izstrp=1 1
+  nbeams=2 nsourc=2 sfrac1(1)=0.000  0.437
+  ebkev=80.9 70.1  bptor=1.30e6  1.95e6
+  fbcur=0.75 0.15 0.10
+        0.75 0.15 0.10
+  angrcple=1.
+  rfmode(1) = 'ech' 'ech' 'fastcd' 'fastcd' 
+  rfpow(1) = 0.549e6 0.532e6 1.3e6 2.4e6
+  rfon(1) =1.0 1.0 10.0 10.0  rftime(1) = 2.0 2.0 2.0 2.0
+  idamp(1) = 2 2  irfcur(1) = 1 1 1 1
+  freq(1) = 110.e9 110.e9 60.e6 83.e6 
+  xec(1) = 239.09 239.09  zec(1) = 70.87 70.87
+  wrfo(1)=0. 0. 
+  gafsep = 0.001, relrf = 0.25
+  nray(1) =30 30 thetec(1)=125.29 125.29  phaiec(1)=207.03 204.23
+  hlwec(1)=1.7 1.7 
+  ratwec(1) = 1.0 1.0
+  irfplt = 0
+  nkfcd(1)=0 0 6 6 gamloss(1)=0. 0. 0. 0.
+  xntor(1,3)=-39.384  -23.631  -7.878   6.891    13.785   20.676
+  rpant(1,3)=4.888e-3 1.494e-2 3.792e-2 1.422e-1 3.682e-1 2.21852e-1
+  xntor(1,4)=8.861     17.723    26.584    -9.846    -29.538  -47.259
+  rpant(1,4)=2.2948e-1 4.9065e-1 2.0648e-1 4.8111e-2 1.834e-2 6.9367e-3
+  iddfusrate=1 iddfusb=1 iddfusb_s=1 
+ $end
+ $namelis3
+  ifixshap=1
+  xdim=170. ydim=320. redge=84.
+  eqdskin='g106217.02070'
+  irguess=-99
+  iterdb=1
+ $end

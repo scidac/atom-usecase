@@ -1,0 +1,61 @@
+          
+  ----------------
+
+  Transport analysis summary:  Shot  106217 at  2070 ms
+  Minor radius a (cm):    56.7         b/a:                     1.71
+  Nominal Rmajor (cm):   169.6         R at geom. cent. (cm): 166.5
+  R at mag. axis (cm):   174.3         Z at mag. axis (cm):     0.9
+  Volume (cm**3):          1.54E+07    Pol. circum. (cm):     477.3
+  surface area (cm**2):    4.83E+05    cross. sect area   :  1.51E+04
+  Bt (G):                 -1.90E+04    Ip  (A):                 8.39E+05
+  Bt at Rgeom (G):        -1.93E+04    r(q = 1)/a:                1.00
+  Line-avg den (1/cm**3):  5.06E+13    Tau-particle-d  (s):     0.340
+      profiles             ucenter     uedge     ucen/uav
+  elec. den. (1/cm**3):    5.92E+13    5.17E+12    1.33
+  elec. temp. (keV):       3.12        0.26        2.58
+  ion   temp. (keV):       4.42        0.31        3.19
+  current  (A/cm**2):    176.60       49.24        3.05
+  Zeff:                    1.33        1.70        0.92
+  q:                      -0.95      -10.32
+  q* at edge:                         -6.01
+  ang. speed (1/sec):     1.30E+05    1.00E+03    3.30E+00
+                            exper.          code
+  Surface voltage  :       0.00            0.50      Volts
+  Average voltage  :       0.00            0.14      Volts
+  Ohmic power:             0.00E+00        1.18E+05  Watts
+  Beam power-torus:        3.25E+06        3.25E+06  Watts
+  Neutron rate:            0.00E+00        5.15E+14  #/s
+      computed quantities
+  Beam power elec. (W):    1.23E+06    ke at a/2 (1/cm-s):      8.47E+17
+  Beam power ions  (W):    1.79E+06    ki at a/2 (1/cm-s):      3.34E+17
+  Beam power cx loss (W):  1.43E+05    ki/kineo at a/2:         3.11
+  Shinethrough (%):        0.94        chi electrons at a/2:    1.63E+04
+  RF power absorbed:       0.00E+00    chi ions at a/2:         7.10E+03
+  Radiated power   (W):    8.85E+05    r*/a: Te = (Te(0)+Te(a))/2 0.40
+  Poloidal B field (G):    2.21E+03    Beta-poloidal:           1.111
+  beam torque (nt-m)       2.74E+00    total torque (nt-m):     2.67E+00
+  stored ang mtm (kg*m2/s):  2.97E-01  momt inertia (kg*m**2):  6.55E-06
+  kinetic energy of rotation (j) :  0.00E+00
+                           electrons     ions       thermal      total
+  Stored Energy (J)        2.217E+05   2.328E+05   4.545E+05   5.180E+05
+  dE/dt (W):               0.000E+00   0.000E+00   0.000E+00   0.000E+00
+  Input power (W):         1.344E+06               3.132E+06   3.132E+06
+  Energy conf. time (s):   0.1649                  0.1451      0.1654 
+                                                   H(89p) =    2.27
+  angular momentum confinement time (sec)          0.1084
+      Beta-toroidal        volume-avg       center
+  electrons:               6.445E-03       1.991E-02
+  ions:                    6.768E-03       2.478E-02
+  beam:                    1.845E-03       9.288E-03
+  alphas:                  0.000E+00       0.000E+00
+  total:                   1.506E-02       5.397E-02
+  total power input (Mw) =  3.2500E+06  time =  0.0000E+00
+  Itot =  8.39E+05  Iohm =  5.46E+05  Iboot =  2.25E+05  Ibeam =   6.79E+04
+                    Irf =   0.00E+00
+  QDD =   0.000183 QDT =   0.000000 QTT =   0.000000
+  time =     0.00 ms,  time point=   0.0   Analysis of shot  106217 at  2070 ms
+  (onetwo version: 1apr01c )
+
+  Fri 24-May-02 10:08:08 AM
+
+  HP-UX hydra B.11.11 U 9000/800 141444676 unlimited-user license
