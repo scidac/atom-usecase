@@ -1,63 +1,63 @@
-          Transport analysis summary:  Shot  144981 at  3200 ms
+          Transport analysis summary:  Shot  144981 at     3 ms
                          Onetwo  V5.9.2  
  
-  Minor radius a (cm):    59.8         b/a:                     1.73
-  Nominal Rmajor (cm):   169.6         R at geom. cent. (cm): 167.3
-  R at mag. axis (cm):   172.5         Z at mag. axis (cm):     1.6
-  Volume (cm**3):          1.81E+07    Pol. circum. (cm):     509.6
-  surface area (cm**2):    5.18E+05    cross. sect area   :  1.77E+04
+  Minor radius a (cm):    59.5         b/a:                     1.74
+  Nominal Rmajor (cm):   169.6         R at geom. cent. (cm): 167.0
+  R at mag. axis (cm):   171.3         Z at mag. axis (cm):     1.5
+  Volume (cm**3):          1.79E+07    Pol. circum. (cm):     509.1
+  surface area (cm**2):    5.17E+05    cross. sect area   :  1.76E+04
 
   Bt (G):                 -2.12E+04    Ip  (A):                 1.47E+06
-  Bt at Rgeom (G):        -2.14E+04    r(q = 1)/a:                1.00
-  Line-avg den (1/cm**3):  8.84E+13    Tau-particle-d  (s):     0.250
+  Bt at Rgeom (G):        -2.15E+04    r(q = 1)/a:                1.00
+  Line-avg den (1/cm**3):  8.62E+13    Tau-particle-d  (s):     0.482
  
       profiles             ucenter     uedge     ucen/uav
-  elec. den. (1/cm**3):    9.98E+13    1.00E+12    1.24
-  elec. temp. (keV):       2.20        0.05        2.12
-  ion   temp. (keV):       2.21        0.10        1.97
-  current  (A/cm**2):    236.68        2.85        2.73
-  Zeff:                    1.76        3.50        0.80
-  q:                      -0.86       -8.52
-  q* at edge:                         -4.54
-  ang. speed (1/sec):     9.71E+04    1.42E+04    1.73E+00
+  elec. den. (1/cm**3):    9.95E+13    2.58E+12    1.28
+  elec. temp. (keV):       2.39        0.01        2.28
+  ion   temp. (keV):       2.09        0.36        1.89
+  current  (A/cm**2):    205.33        2.16        2.35
+  Zeff:                    1.72        1.15        0.78
+  q:                      -1.02       -7.99
+  q* at edge:                         -4.61
+  ang. speed (1/sec):     9.62E+04    1.27E+04    1.76E+00
  
                             exper.          code
-  Surface voltage  :       0.00            0.31      Volts
+  Surface voltage  :       0.00            0.38      Volts
   Average voltage  :       0.00            0.46      Volts
-  Ohmic power:             0.00E+00        6.78E+05  Watts
-  Beam power-torus:        2.07E+06        4.03E+06  Watts
-  Neutron rate D(D,N):     0.00E+00        2.46E+14  #/s
+  Ohmic power:             0.00E+00        6.73E+05  Watts
+  Beam power-torus:        2.17E+06        2.17E+06  Watts
+  Neutron rate D(D,N):     0.00E+00        2.17E+14  #/s
  
       computed quantities
-  Beam power elec. (W):    1.82E+06    ke at a/2 (1/cm-s):      6.04E+17
-  Beam power ions  (W):    2.01E+06    ki at a/2 (1/cm-s):      6.04E+17
-  Beam power cx loss (W):  8.61E+04    ki/kineo at a/2:         3.10
-  Shinethrough (%):        0.11        chi electrons at a/2:    6.77E+03
-  RF power absorbed:       0.00E+00    chi ions at a/2:         8.73E+03
-  Radiated power   (W):    5.99E+05    r*/a: Te = (Te(0)+Te(a))/2 0.63
+  Beam power elec. (W):    9.86E+05    ke at a/2 (1/cm-s):      1.85E+17
+  Beam power ions  (W):    1.14E+06    ki at a/2 (1/cm-s):      4.11E+17
+  Beam power cx loss (W):  4.14E+04    ki/kineo at a/2:         2.19
+  Shinethrough (%):        0.00        chi electrons at a/2:    2.14E+03
+  RF power absorbed:       0.00E+00    chi ions at a/2:         6.12E+03
+  Radiated power   (W):    6.02E+05    r*/a: Te = (Te(0)+Te(a))/2 0.58
   Brems prim ions  (W):    0.00E+00    Brems imp ions :         0.00E+00
-  Poloidal B field (G):    3.63E+03    Beta-poloidal:           0.536
-  beam torque (nt-m)       2.66E+00    total torque (nt-m):     2.31E+00
-  stored ang mtm (kg*m2/s):  8.68E-01  momt inertia (kg*m**2):  1.43E-05
-  kinetic energy of rotation (j) :  3.02E+04
+  Poloidal B field (G):    3.64E+03    Beta-poloidal:           0.504
+  beam torque (nt-m)       2.02E+00    total torque (nt-m):     1.85E+00
+  stored ang mtm (kg*m2/s):  8.10E-01  momt inertia (kg*m**2):  1.36E-05
+  kinetic energy of rotation (j) :  2.78E+04
  
                            electrons     ions       thermal      total
-  Stored Energy (J)        4.025E+05   3.460E+05   7.485E+05   7.823E+05
-  dE/dt (W):               0.000E+00  -9.220E+01  -9.220E+01  -9.220E+01
-  Input power (W):         2.502E+06               4.508E+06   4.508E+06
-  Energy conf. time (s):   0.1609                  0.1660      0.1735
-  H(89p) =    1.61  H(89pm) =  1.90 H_ITER98y2 =  0.87  H_Petty =  1.01
-  angular momentum confinement time (sec)          0.3261
+  Stored Energy (J)        3.912E+05   3.281E+05   7.192E+05   7.381E+05
+  dE/dt (W):               0.000E+00  -1.164E-01  -1.164E-01  -1.164E-01
+  Input power (W):         1.659E+06               2.795E+06   2.795E+06
+  Energy conf. time (s):   0.2358                  0.2573      0.2640
+  H(89p) =    1.92  H(89pm) =  2.60 H_ITER98y2 =  1.07  H_Petty =  1.37
+  angular momentum confinement time (sec)          0.4014
  
       Beta-toroidal        volume-avg       center
-  electrons:               8.105E-03       1.926E-02
-  ions:                    6.968E-03       1.673E-02
-  beam:                    6.800E-04       1.908E-03
+  electrons:               7.901E-03       2.076E-02
+  ions:                    6.627E-03       1.589E-02
+  beam:                    3.805E-04       8.394E-04
   alphas:                  0.000E+00       0.000E+00
-  total:                   1.575E-02       3.790E-02
-  Normalized beta          1.374E+00
-  total power input (W) =   4.708E+06  time =  3.2100E+00
-  Itot =  1.47E+06  Iohm =  1.26E+06  Iboot =  1.96E+05  Ibeam =   1.59E+04  Irf =   0.00E+00
+  total:                   1.491E-02       3.749E-02
+  Normalized beta          1.293E+00
+  total power input (W) =   2.840E+06  time =  3.2000E+00
+  Itot =  1.47E+06  Iohm =  1.26E+06  Iboot =  2.04E+05  Ibeam =   1.44E+04  Irf =   0.00E+00
                   cd,amps          qe ,watts          qi, watts
   ech             0.000E+00        0.000E+00          0.000E+00
   ech             0.000E+00        0.000E+00          0.000E+00
@@ -66,15 +66,16 @@
   ech             0.000E+00        0.000E+00          0.000E+00
   ech             0.000E+00        0.000E+00          0.000E+00
  QDD =      0.0 QDT =      0.0 QTT =      0.0 QHe3d =      0.0
- P DD  =2.84E+02  P DT =0.00E+00  P TT =0.00E+00 W  P He3d 0.00E+00
- D(D,n) =   2.46E+14  D(T,n) =   0.00E+00  T(T,2n) =   0.00E+00  He3(D,p)He4 =   0.00E+00   #/sec
- paux (MW) = 3.83E+00 palpha = 0.00E+00 prad = 5.99E-01 Ptransport =  3.23E+00
+ P DD  =2.51E+02  P DT =0.00E+00  P TT =0.00E+00 W  P He3d 0.00E+00
+ D(D,n) =   2.17E+14  D(T,n) =   0.00E+00  T(T,2n) =   0.00E+00  He3(D,p)He4 =   0.00E+00   #/sec
+ paux (MW) = 2.12E+00 palpha = 0.00E+00 prad = 6.02E-01 Ptransport =  1.52E+00
  
  
  
  
-1time =        3210.00 ms,  time point=           8.0   Analysis of shot  144981 at  3200 ms            (onetwo version: Onetwo  V5.9.2  )
+1time =        3200.00 ms,  time point=          32.0   Analysis of shot  144981 at     3 ms            (onetwo version: Onetwo  V5.9.2  )
+   equilibrium point =   1   equilibrium iteration number =  1
 
-  Mon 28-Sep-20 11:54:43 AM
+1time =        3200.00 msec,  time point=  32   equilibrium point =   1   equilibrium iteration number =  1  equilibrium
+ geometry check 
 
-  Linux irisb.cluster 2.6.32-754.31.1.el6.x86_64 #1 SMP Wed Jul 15 16:02:21 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
