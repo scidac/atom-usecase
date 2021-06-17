@@ -1,0 +1,80 @@
+          Transport analysis summary:  Shot  170868 at     2 ms
+                         Onetwo  V5.9.2  
+ 
+  Minor radius a (cm):    58.0         b/a:                     1.76
+  Nominal Rmajor (cm):   169.6         R at geom. cent. (cm): 167.4
+  R at mag. axis (cm):   173.3         Z at mag. axis (cm):     2.3
+  Volume (cm**3):          1.72E+07    Pol. circum. (cm):     500.6
+  surface area (cm**2):    5.07E+05    cross. sect area   :  1.69E+04
+
+  Bt (G):                 -2.06E+04    Ip  (A):                 9.91E+05
+  Bt at Rgeom (G):        -2.08E+04    r(q = 1)/a:                1.00
+  Line-avg den (1/cm**3):  5.14E+13    Tau-particle-d  (s):     0.250
+ 
+      profiles             ucenter     uedge     ucen/uav
+  elec. den. (1/cm**3):    6.09E+13    2.97E+12    1.33
+  elec. temp. (keV):       2.47        0.00        2.29
+  ion   temp. (keV):       2.50        0.30        2.16
+  current  (A/cm**2):    197.34        1.73        3.22
+  Zeff:                    2.13        1.01        0.93
+  q:                      -0.95      -11.30
+  q* at edge:                         -6.27
+  ang. speed (1/sec):     1.53E+05    7.27E+03    2.44E+00
+ 
+                            exper.          code
+  Surface voltage  :       0.00            0.44      Volts
+  Average voltage  :       0.00            0.30      Volts
+  Ohmic power:             0.00E+00        2.93E+05  Watts
+  Beam power-torus:        2.37E+05        2.16E+06  Watts
+  Neutron rate D(D,N):     0.00E+00        1.77E+14  #/s
+ 
+      computed quantities
+  Beam power elec. (W):    7.65E+05    ke at a/2 (1/cm-s):      9.31E+16
+  Beam power ions  (W):    1.28E+06    ki at a/2 (1/cm-s):      5.19E+17
+  Beam power cx loss (W):  7.69E+04    ki/kineo at a/2:         3.05
+  Shinethrough (%):        0.97        chi electrons at a/2:    1.82E+03
+  RF power absorbed:       0.00E+00    chi ions at a/2:         1.38E+04
+  Radiated power   (W):    8.49E+05    r*/a: Te = (Te(0)+Te(a))/2 0.57
+  Brems prim ions  (W):    0.00E+00    Brems imp ions :         0.00E+00
+  Poloidal B field (G):    2.49E+03    Beta-poloidal:           0.681
+  beam torque (nt-m)       1.73E+00    total torque (nt-m):     1.45E+00
+  stored ang mtm (kg*m2/s):  5.24E-01  momt inertia (kg*m**2):  7.58E-06
+  kinetic energy of rotation (j) :  2.08E+04
+ 
+                           electrons     ions       thermal      total
+  Stored Energy (J)        2.292E+05   1.847E+05   4.139E+05   4.448E+05
+  dE/dt (W):               0.000E+00   3.492E-01   3.492E-01   3.492E-01
+  Input power (W):         1.058E+06               2.336E+06   2.336E+06
+  Energy conf. time (s):   0.2167                  0.1772      0.1904
+  H(89p) =    1.88  H(89pm) =  2.63 H_ITER98y2 =  1.20  H_Petty =  1.58
+  angular momentum confinement time (sec)          0.3024
+ 
+      Beta-toroidal        volume-avg       center
+  electrons:               5.136E-03       1.394E-02
+  ions:                    4.138E-03       1.116E-02
+  beam:                    6.909E-04       2.533E-03
+  alphas:                  0.000E+00       0.000E+00
+  total:                   9.965E-03       2.763E-02
+  Normalized beta          1.215E+00
+  total power input (W) =   2.457E+06  time =  2.5800E+00
+  Itot =  9.91E+05  Iohm =  7.88E+05  Iboot =  1.77E+05  Ibeam =   2.60E+04  Irf =   0.00E+00
+                  cd,amps          qe ,watts          qi, watts
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+  ech             0.000E+00        0.000E+00          0.000E+00
+ QDD =      0.0 QDT =      0.0 QTT =      0.0 QHe3d =      0.0
+ P DD  =2.05E+02  P DT =0.00E+00  P TT =0.00E+00 W  P He3d 0.00E+00
+ D(D,n) =   1.77E+14  D(T,n) =   0.00E+00  T(T,2n) =   0.00E+00  He3(D,p)He4 =   0.00E+00   #/sec
+ paux (MW) = 2.04E+00 palpha = 0.00E+00 prad = 8.49E-01 Ptransport =  1.19E+00
+ 
+ 
+ 
+ 
+1time =        2580.00 ms,  time point=          32.0   Analysis of shot  170868 at     2 ms            (onetwo version: Onetwo  V5.9.2  )
+
+  Wed 12-May-21 05:05:00 PM
+
+  Linux irisc.cluster 2.6.32-754.35.1.el6.x86_64 #1 SMP Sat Nov 7 12:42:14 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
